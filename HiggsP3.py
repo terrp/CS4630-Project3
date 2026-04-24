@@ -26,7 +26,7 @@ METRICS_FILE = 'outputs/phase3a_metrics.csv'
 # ─── 1. Data Loading & Preprocessing ─────────────────────────────────────────
 print("Loading 200k subsample from HIGGS.csv.gz...")
 # Col 0 is the label (signal=1, background=0), Cols 1-28 are features.
-df = pd.read_csv('HIGGS.csv.gz', header=None, nrows=200000)
+df = pd.read_csv('data/raw/HIGGS.csv.gz', header=None, nrows=200000)
 
 X_raw = df.iloc[:, 1:].values
 y = df.iloc[:, 0].values
