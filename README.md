@@ -13,7 +13,7 @@ This repository contains the Phase 3 implementation for evaluating classic super
 * **Install the required libraries:**
   * Run `pip install -r requirements.txt`
 * **Verify Data Placement:**
-  * Ensure the raw dataset is located in the correct folder: `data/raw/HIGGS.csv.gz`
+  * Ensure the raw dataset is located in the same folder: `HIGGS.csv.gz`
   * *Note: Do not unzip the file. Pandas will read the `.gz` archive directly.*
 
 ### Running the Models
