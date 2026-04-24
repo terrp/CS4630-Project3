@@ -29,6 +29,12 @@ The primary execution script is located in the scripts folder. It utilizes comma
  Execute all models sequentially:
    `python HiggsP3.py --model all`
 
+  Execute all of the models in part B:
+    `python3 HiggsP3b.py --part all`
+  You can also run them separately with:
+    `python3 HiggsP3b.py --part a`
+    `python3 HiggsP3b.py --part b`
+
  Outputs
  The script automatically creates an `outputs/` directory in your current working path if one does not exist.
  Upon completion of a model's inference phase, the runtime metrics and evaluation scores are printed to the console.
